@@ -29,16 +29,15 @@ android {
         namespace 'com.chavesgu.scan'
     }
     
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
         consumerProguardFiles 'consumer-proguard-rules.pro'
     }
     lintOptions {
         disable 'InvalidPackage'
     }
-    buildToolsVersion '28.0.3'
 }
 
 dependencies {
